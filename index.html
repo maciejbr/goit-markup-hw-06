@@ -162,7 +162,6 @@
       <section class="section-one">
         <div class="container">
           <h2 class="visually-hidden">Our values</h2>
-          <!--deleted section-one-list-->
           <ul class="section-one-list list">
             <li class="section-one-li">
               <div class="container section-one-icons-container">
@@ -223,6 +222,7 @@
           <ul class="section-two-list list">
             <li class="section-two-li">
               <img
+                srcset="./images/mark-1.jpg 1x, ./images/mark-1@2x.jpg 2x"
                 src="./images/mark-1.jpg"
                 alt="man in a blue shirt with short stubble"
                 width="264"
@@ -266,6 +266,7 @@
             </li>
             <li class="section-two-li">
               <img
+                srcset="./images/tom-2.jpg 1x, ./images/tom-2@2x.jpg 2x"
                 src="./images/tom-2.jpg"
                 alt="man in a blue shirt, smiling"
                 width="264"
@@ -308,6 +309,7 @@
             </li>
             <li class="section-two-li">
               <img
+                srcset=".images/camila-3.jpg 1x, .images/camila-3@2x.jpg 2x"
                 src="./images/camila-3.jpg"
                 alt="woman in a pink sweater"
                 width="264"
@@ -350,6 +352,7 @@
             </li>
             <li class="section-two-li">
               <img
+                srcset=".images/daniel-4.jpg 1x, .images/daniel-4@2x.jpg 2x"
                 src="./images/daniel-4.jpg"
                 alt="man in a grey t-shirt"
                 width="264"
@@ -402,12 +405,35 @@
           <ul class="portfolio-list list">
             <li class="portfolio-li">
               <div class="portfolio-box">
-                <img
-                  src="./images/banking-app-5.jpg"
-                  width="360"
-                  height="300"
-                  alt="an image showing an example of the banking app"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/banking-app-5-mobile.jpg    1x,
+                      ./images/banking-app-5-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/banking-app-5-tablet.jpg    1x,
+                      ./images/banking-app-5-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/banking-app-5.jpg    1x,
+                      ./images/banking-app-5@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/banking-app-5.jpg"
+                    width="360"
+                    height="300"
+                    alt="an image showing an example of the banking app"
+                  />
+                </picture>
                 <p class="portfolio-box-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -421,12 +447,35 @@
             </li>
             <li class="portfolio-li">
               <div class="portfolio-box">
-                <img
-                  src="./images/cashless-6.jpg"
-                  width="360"
-                  height="300"
-                  alt="an image showing an example of the cashless payment app"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/cashless-6-mobile.jpg    1x,
+                      ./images/cashless-6-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/cashless-6-tablet.jpg    1x,
+                      ./images/cashless-6-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/cashless-6.jpg    1x,
+                      ./images/cashless-6@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/cashless-6.jpg"
+                    width="360"
+                    height="300"
+                    alt="an image showing an example of the cashless payment app"
+                  />
+                </picture>
                 <p class="portfolio-box-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -440,12 +489,35 @@
             </li>
             <li class="portfolio-li">
               <div class="portfolio-box">
-                <img
-                  src="./images/meditation-app-7.jpg"
-                  width="360"
-                  height="300"
-                  alt="an image showing an example of the meditation app on a computer and on a smartphone"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/meditation-app-7-mobile.jpg    1x,
+                      ./images/meditation-app-7-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/meditation-app-7-tablet.jpg    1x,
+                      ./images/meditation-app-7-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/meditation-app-7.jpg    1x,
+                      ./images/meditation-app-7@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/meditation-app-7.jpg"
+                    width="360"
+                    height="300"
+                    alt="an image showing an example of the meditation app on a computer and on a smartphone"
+                  />
+                </picture>
                 <p class="portfolio-box-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -459,12 +531,32 @@
             </li>
             <li class="portfolio-li">
               <div class="portfolio-box">
-                <img
-                  src="./images/taxi-8.jpg"
-                  width="360"
-                  height="300"
-                  alt="an image showing the driver's place in a taxi car with an on app on a smartphone"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/taxi-8-mobile.jpg    1x,
+                      ./images/taxi-8-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/taxi-8-tablet.jpg    1x,
+                      ./images/taxi-8-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/taxi-8.jpg 1x, ./images/taxi-8@2x.jpg 2x"
+                  />
+                  <img
+                    src="./images/taxi-8.jpg"
+                    width="360"
+                    height="300"
+                    alt="an image showing the driver's place in a taxi car with an on app on a smartphone"
+                  />
+                </picture>
                 <p class="portfolio-box-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -478,12 +570,35 @@
             </li>
             <li class="portfolio-li">
               <div class="portfolio-box">
-                <img
-                  src="./images/screen-9.jpg"
-                  width="360"
-                  height="300"
-                  alt="an image showing an example of the illustrations on a smartphone"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/screen-9-mobile.jpg    1x,
+                      ./images/screen-9-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/screen-9-tablet.jpg    1x,
+                      ./images/screen-9-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/screen-9.jpg    1x,
+                      ./images/screen-9@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/screen-9.jpg"
+                    width="360"
+                    height="300"
+                    alt="an image showing an example of the illustrations on a smartphone"
+                  />
+                </picture>
                 <p class="portfolio-box-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -497,12 +612,35 @@
             </li>
             <li class="portfolio-li">
               <div class="portfolio-box">
-                <img
-                  src="./images/online-course-10.jpg"
-                  width="360"
-                  height="300"
-                  alt="an image showing happy young woman during online course on a smartphone"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/online-course-10-mobile.jpg    1x,
+                      ./images/online-course-10-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/online-course-10-tablet.jpg    1x,
+                      ./images/online-course-10-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/online-course-10.jpg    1x,
+                      ./images/online-course-10@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/online-course-10.jpg"
+                    width="360"
+                    height="300"
+                    alt="an image showing happy young woman during online course on a smartphone"
+                  />
+                </picture>
                 <p class="portfolio-box-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
