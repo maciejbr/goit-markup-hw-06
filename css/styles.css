@@ -160,7 +160,8 @@ header {
   border-radius: 2px;
 }
 
-.first-link:hover .first-link:focus {
+.first-link:hover,
+.first-link:focus {
   color: #404bbf;
 }
 
@@ -295,9 +296,7 @@ header {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-icon:hover {
-  background-color: #404bbf;
-}
+.link-icon:hover,
 .link-icon:focus {
   background-color: #404bbf;
 }
@@ -306,7 +305,6 @@ header {
   fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .section-two-li {
   width: calc((100%-72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -324,7 +322,6 @@ header {
 .address-list {
   display: none;
 }
-
 .span {
   color: #2e2f42;
 }
@@ -335,7 +332,6 @@ header {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .logo-bottom {
   display: block;
   margin-right: 0;
@@ -344,14 +340,12 @@ header {
   padding: 0;
   margin-bottom: 16px;
 }
-
 .footer-paragraph {
   display: block;
   flex-wrap: wrap;
   color: var(--color-footer);
   width: 100%;
 }
-
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -361,10 +355,7 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-link:hover {
-  color: #404bbf;
-}
-
+.contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
@@ -383,7 +374,6 @@ header {
   background-size: cover;
   margin: 0 auto;
 }
-
 .heading-hero {
   font-size: 36px;
   line-height: 1.07;
@@ -394,7 +384,6 @@ header {
   margin: 0 auto;
   margin-bottom: 48px;
 }
-
 .heading-two {
   font-size: 36px;
   line-height: 1.11;
@@ -404,7 +393,6 @@ header {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-
 .heading-h {
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -412,13 +400,11 @@ header {
   text-align: left; /*or delete?*/
   margin-bottom: 8px;
 }
-
 .heading-h.tablet-h {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
 }
-
 .heading-team {
   font-weight: 500;
   font-size: 20px;
@@ -428,7 +414,6 @@ header {
   text-align: center;
   margin-bottom: 8px;
 }
-
 .heading-three {
   font-size: 36px;
   line-height: 1.11;
@@ -445,7 +430,6 @@ header {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-
 .paragraph-two {
   font-size: 16px;
   line-height: 1.5;
@@ -495,11 +479,7 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:focus {
-  background-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+.button:focus,
 .button:hover {
   background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -530,13 +510,10 @@ header {
   width: 100%;
 }
 
-.portfolio-li:hover .portfolio-box-p {
-  transform: translateY(0%);
-  cursor: pointer;
-}
-
+.portfolio-li:hover .portfolio-box-p,
 .portfolio-li:focus .portfolio-box-p {
   transform: translateY(0%);
+  cursor: pointer;
 }
 
 .portfolio-li:focus {
@@ -548,12 +525,8 @@ header {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-li:focus,
 .portfolio-li:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-li:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -624,10 +597,7 @@ header {
   align-items: center;
   justify-content: center;
 }
-.footer-link-icon:hover {
-  background-color: #31d0aa;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.footer-link-icon:hover,
 .footer-link-icon:focus {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
