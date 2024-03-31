@@ -316,7 +316,6 @@ header {
   font-style: normal;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .address-list {
   display: none;
