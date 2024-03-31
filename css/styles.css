@@ -1121,6 +1121,11 @@ header {
     font-size: 20px;
     font-weight: 500;
   }
+
+  .section-three {
+    padding: 120px 0;
+  }
+
   .portfolio-list {
     column-gap: 24px;
     row-gap: 48px;
