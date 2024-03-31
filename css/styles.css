@@ -103,8 +103,7 @@ header {
 }
 
 .list-header {
-  display: flex;
-  gap: 40px;
+  display: none;
 }
 
 .header-div {
