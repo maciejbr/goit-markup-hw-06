@@ -610,7 +610,7 @@ header {
 .div-footer-three {
   margin: 0;
 }
-
+/* correct e-mail! */
 .footer-form {
   display: flex;
   gap: 16px;
